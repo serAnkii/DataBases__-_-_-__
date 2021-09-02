@@ -84,3 +84,56 @@ update student set email='abc@xyz' where name='ankit';
 insert into student values(&rollno ,'&name' ,'&city' ,'&email');
 --}
 
+--setlinesize()
+--{
+set linesize 20; 
+--}
+
+--()
+--{
+
+--}
+
+--pagesize()
+--{
+set pagesize 7;
+--}
+
+--HeadingOffOrOn() --to turn off/on header.
+--{
+select heading off;
+select heading on;
+--}
+
+--SetPauseOn() --Allows a script to 'pause' until you hit 'ENTER' for it to continue.
+--{
+set pause on;
+--}
+
+--RemoveAColumn()
+--{
+alter table student drop column name /*name of column*/ ;
+--}
+
+--MakeDublicate()
+--{
+create table duplicate as select * from student;
+--}
+
+--TruncateAndDrop()
+--{
+truncate table student; --Removes all the rows from the table
+drop table student; --Removes the entire table 
+--}
+
+--SeeAllTheTables()
+--{
+select * from tab;
+--}
+
+--disconnect()
+--{
+DISCONNECT;
+--}
+
+
