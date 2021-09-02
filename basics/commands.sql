@@ -1,8 +1,9 @@
-// BTW its my assignment also : lolz
----.
-   .
- \  /
-   |
+/*
+BTW its my assignment also : lolz
+✍(◔◡◔)
+btw this function format is for the easy understanding
+≧◉◡◉≦
+*/
 login(null)
 {   
 //login to the oracle
