@@ -1,7 +1,7 @@
 /*
 BTW its my assignment also : lolz
 ✍(◔◡◔)
-btw this function format is for the sake of simplicity
+This function format is for the sake of simplicity
 ≧◉◡◉≦
 */
 --login(null)
@@ -9,9 +9,14 @@ btw this function format is for the sake of simplicity
 --login to the oracle
 --open cmd and type
 --c:\sqlplus
+--connect
 --enter username
 --and the password
 --};
+grantpermission
+{
+grant connect ,resource,dba to ankita;
+}
 
 --viweusername()
 --{
