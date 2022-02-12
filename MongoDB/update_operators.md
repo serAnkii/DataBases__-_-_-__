@@ -15,4 +15,7 @@
   
   }})
   ```
-  
+  - ### less than(lt)/greater than<gt>/greater than equal<gte> and so on .....
+  ```js
+  db.<name of collection>.find({age:{lt: 21}})
+  ```
