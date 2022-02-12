@@ -1,37 +1,29 @@
-/*
-BTW its my assignment also : lolz
-✍(◔◡◔)
-This function format is for the sake of simplicity
-≧◉◡◉≦
-*/
---login(null)
---{   
---login to the oracle
---open cmd and type
---c:\sqlplus
---connect
---enter username
---and the password
---};
-grantpermission
-{
-grant connect ,resource,dba to ankita;
-}
+# ✍(◔◡◔)  ≧◉◡◉≦
 
---viweusername()
---{
-show user
---}
+- ## General steps to start with.
+  - login to the oracle
+    - open cmd and type
+      - c:\sqlplus
+      - connect
+      - enter username
+      - and the password
+    - grantpermission
+       ``` sql
+        grant connect ,resource,dba to ankita;
+       ```
+    - view username
+       ``` sql
+        show user
+       ```
+     - view date
+      ``` sql
+        SELECT sysdate from dual ;
+      ```
 
---viewdate()
---{
-SELECT sysdate from dual ;
---}
-
---clearcsr()
---{
-CLEARSCREEN
---}
+      - clearcsr()
+      ```
+      CLEARSCREEN
+      ```
 
 --environmentcariables()
 --{
