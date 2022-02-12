@@ -36,6 +36,10 @@
   ``` js 
   db.<coll. name>.find().pretty()
   ```
+  - ### delete row
+  ``` js
+  db.<collection name>.remove({name: 'ankit'})
+  ```
   - ### search in a mongodb database
   ``` js
   db.<coll. name>.find().pretty({'previous-gender':'male','age': 21}) // for finding all
