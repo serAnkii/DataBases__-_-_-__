@@ -19,11 +19,22 @@
     ```
  - ## commands related to collections
     - ### Show all collections
-    ```
+    ``` 
     show collections
     ```
     - ### create a new collection
-    ```
+    ``` js
     db.createCollection('collection_name')
     ```
+    - ### delete a collection
+    ``` js
+    db.<nameofcollection>.drop()
+    ```
+
+    
+    
+    
+    
+    
+    
     
